@@ -1,0 +1,38 @@
+{
+  "name": "@hecterbonha/ui",
+  "version": "0.0.1",
+  "description": "Yet Another React UI Library ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup ./src/index.ts",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecterbonha/ui.git"
+  },
+  "keywords": [
+    "React",
+    "UI"
+  ],
+  "author": "hecterbonha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hecterbonha/ui/issues"
+  },
+  "homepage": "https://github.com/hecterbonha/ui#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
