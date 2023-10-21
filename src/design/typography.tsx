@@ -2,13 +2,11 @@
 import React from 'react';
 
 interface TypographyProps {
-    children: string
+  children: string;
 }
 
 function Title(props: TypographyProps) {
-    return (
-        <h1>{props.children}</h1>
-    )
+  return <h1>{props.children}</h1>;
 }
 
-export { Title }
+export { Title };
