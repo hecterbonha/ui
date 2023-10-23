@@ -1,6 +1,6 @@
 {
   "name": "@hecterbonha/ui",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Yet Another React UI Library ",
   "scripts": {
     "build": "tsup",
