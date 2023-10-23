@@ -2,6 +2,9 @@
 module.exports = {
   prefix: 're-',
   content: ['./src/**/*.tsx'],
+  corePlugins: {
+    preflight: false
+  },
   theme: {
     colors: {
       slate: {
